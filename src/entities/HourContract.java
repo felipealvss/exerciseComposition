@@ -4,13 +4,14 @@ import java.util.Date;
 
 public class HourContract {
 
+	// Arguments
 	private Date date;
 	private Double valuePerHour;
 	private Integer hours;
 	
-	// Construct without fields
+	// Construct without arguments - standard constructor
 	public HourContract() {}
-	// Construct with fields
+	// Construct with arguments
 	public HourContract(Date date, Double valuePerHour, Integer hours) {
 		this.date = date;
 		this.valuePerHour = valuePerHour;

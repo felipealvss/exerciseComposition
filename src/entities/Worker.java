@@ -14,7 +14,7 @@ public class Worker {
 	private double baseSalary;
 	// Relation to the table Department, having only one relationship
 	private Department department;
-	// Relation to the table HouContracts, having many relationships, so using a list
+	// Relation to the table HourContracts, having many relationships, so using a LIST
 	private List<HourContract> contracts = new ArrayList<>(); // Put the ArrayList here on the declaration
 	
 	// Construct without arguments
@@ -25,7 +25,7 @@ public class Worker {
 		this.level = level;
 		this.baseSalary = baseSalary;
 		this.department = department;
-		// You won't put any attributes that is a list type here on the constructor
+		// You won't put any attributes that is a LIST type here on the constructor
 	}
 	
 	// GET&SET

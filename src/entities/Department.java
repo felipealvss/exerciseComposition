@@ -5,9 +5,9 @@ public class Department {
 	// Arguments
 	private String name;
 	
-	// Construct without fields
+	// Construct without arguments
 	public Department() {}
-	// Construct with fields
+	// Construct with arguments
 	public Department(String name) {
 		this.name = name;
 	}
